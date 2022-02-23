@@ -1,0 +1,1618 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.body {
+  display: block;
+  padding: 0px;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  background-color: #fffeff;
+}
+
+.logo {
+  margin-right: 0px;
+}
+
+.container {
+  display: inline-block;
+  overflow: hidden;
+  width: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.dropdown-toggle {
+  position: relative;
+  left: 400px;
+  display: block;
+  float: none;
+  clear: none;
+}
+
+.button {
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 0px;
+  background-color: hsla(0, 0%, 100%, 0);
+  color: #2d2527;
+}
+
+.text-block {
+  position: relative;
+  left: 0px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.dropdown {
+  overflow: visible;
+}
+
+.dropdown-link {
+  display: block;
+  background-color: transparent;
+  opacity: 1;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.02px;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.dropdown-2 {
+  margin-left: 400px;
+}
+
+.dropdown-toggle-2 {
+  position: relative;
+  left: 0px;
+  display: block;
+  margin-left: 0px;
+  float: none;
+  clear: none;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.icon {
+  display: none;
+  overflow: hidden;
+}
+
+.div-block {
+  display: inline-block;
+}
+
+.dropdown-toggle-3 {
+  display: block;
+  margin-top: 69px;
+  padding: 0px 40px 10px 0px;
+}
+
+.button-2 {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 0px;
+  background-color: rgba(56, 152, 236, 0);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.icon-2 {
+  display: none;
+}
+
+.dropdown-link-2 {
+  color: #2d2527;
+}
+
+.dropdown-list {
+  background-color: transparent;
+}
+
+.text-block-2 {
+  margin-left: 3px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.body-2 {
+  margin-bottom: 100px;
+  padding: 150px 50px 25px 150px;
+}
+
+.image {
+  margin-top: 150px;
+}
+
+.heading {
+  display: inline-block;
+  margin-top: 19px;
+  margin-bottom: 6px;
+  margin-left: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 120px;
+  font-weight: 300;
+  letter-spacing: -3px;
+}
+
+.image-2 {
+  margin-top: -83px;
+}
+
+.div-block-2 {
+  margin-top: -30px;
+}
+
+.div-block-3 {
+  margin-top: -55px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.grid {
+  margin-top: 66px;
+  margin-left: 401px;
+  grid-auto-flow: row;
+  grid-row-gap: 2px;
+  grid-template-areas: "Area Area-3"
+    "Area-6 Area-4"
+    "Area-2 Area-5";
+  -ms-grid-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  -ms-grid-rows: 1fr 2px auto 2px auto;
+  grid-template-rows: 1fr auto auto;
+}
+
+.grid-2 {
+  grid-auto-flow: row;
+  grid-template-areas: "Area-2 Area-3"
+    "Area Area-4";
+  -ms-grid-columns: 0.5fr 0.5fr;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+.div-block-4 {
+  height: 500px;
+  max-height: none;
+  max-width: 850px;
+  margin-top: 100px;
+  margin-left: 0px;
+}
+
+.grid-3 {
+  -ms-grid-rows: 2.5fr 2.5fr auto;
+  grid-template-rows: 2.5fr 2.5fr auto;
+}
+
+.grid-4 {
+  margin-top: 0px;
+  grid-column-gap: 40px;
+  grid-row-gap: 80px;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.image-3 {
+  margin-bottom: 80px;
+}
+
+.heading-2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+}
+
+.gallery-header-bold {
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 180px;
+  font-weight: 700;
+  letter-spacing: -8px;
+}
+
+.gallery-header-light {
+  display: inline-block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 180px;
+  font-weight: 400;
+  letter-spacing: -10px;
+}
+
+.dropdown-toggle-4 {
+  display: inline-block;
+  margin-top: 35px;
+  padding-left: 11px;
+}
+
+.text-block-5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22.5px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.button-3 {
+  margin-top: 85px;
+  padding-left: 10px;
+  background-color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 22.5px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.icon-3 {
+  display: none;
+}
+
+.dropdown-list-2 {
+  background-color: transparent;
+}
+
+.dropdown-list-2.w--open {
+  margin-top: 14px;
+}
+
+.text-block-6 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-weight: 700;
+}
+
+.work {
+  display: block;
+  margin-top: 20px;
+  margin-left: 384px;
+  padding-top: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 20px;
+  letter-spacing: -0.03vw;
+}
+
+.gallery-header-light-copy {
+  display: inline-block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 180px;
+  font-weight: 400;
+  letter-spacing: -10px;
+}
+
+.work-copy {
+  margin-top: 40px;
+  margin-left: -1050px;
+}
+
+.gallery-header-bold-copy {
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 180px;
+  font-weight: 700;
+  letter-spacing: -8px;
+}
+
+.dropdown-toggle-4-copy {
+  display: inline-block;
+  padding-top: 0px;
+  padding-left: 11px;
+}
+
+.div-block-5 {
+  padding-top: 14px;
+}
+
+.logotype {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: -0.5vw;
+}
+
+.button-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  background-color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.03px;
+}
+
+.dropdown-toggle-5 {
+  display: block;
+}
+
+.text-block-7 {
+  font-weight: 300;
+}
+
+.icon-4 {
+  display: none;
+}
+
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 32vw;
+}
+
+.dropdown-list-3 {
+  background-color: transparent;
+}
+
+.dropdown-list-3.w--open {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.03vw;
+}
+
+.dropdown-list-3.w--open:active {
+  margin-left: 440px;
+}
+
+.div-block-6 {
+  display: -ms-grid;
+  display: grid;
+  width: 32vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 0.25fr 3.5fr;
+  grid-template-columns: 0.25fr 3.5fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.dropdown-3 {
+  margin-right: 0px;
+  margin-left: -80px;
+}
+
+.gallery-header {
+  display: -ms-grid;
+  display: grid;
+  max-width: 22vw;
+  min-width: 35px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-areas: "Area Area"
+    "Area-2 Area-2";
+  -ms-grid-columns: 1fr 16px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto 16px auto;
+  grid-template-rows: auto auto;
+  letter-spacing: -0.25vw;
+}
+
+.gallery-header.splash {
+  max-width: 45vw;
+  min-width: 35vw;
+}
+
+.heading-3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 12vh;
+  font-weight: 500;
+  letter-spacing: -0.35vw;
+}
+
+.text-block-8 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-weight: 300;
+  letter-spacing: -0.02vw;
+}
+
+.dropdown-toggle-6 {
+  display: block;
+  margin-left: 128px;
+  padding-right: 20px;
+  padding-left: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.dropdown-toggle-6.digital {
+  margin-left: 75px;
+}
+
+.dropdown-toggle-6.graphic {
+  margin-left: 133px;
+}
+
+.dropdown-toggle-6.splash {
+  margin-left: 444px;
+}
+
+.dropdown-toggle-6.product {
+  margin-left: 145px;
+}
+
+.dropdown-toggle-6.contact {
+  margin-left: 50px;
+}
+
+.icon-5 {
+  display: none;
+}
+
+.dropdown-list-4 {
+  display: none;
+}
+
+.dropdown-list-4.w--open {
+  margin-top: -10px;
+  margin-left: 50px;
+  background-color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-weight: 300;
+  letter-spacing: -0.02vw;
+}
+
+.dropdown-list-4.graphic.w--open {
+  margin-left: 112px;
+}
+
+.dropdown-list-4.splash.w--open {
+  margin-left: 424px;
+}
+
+.dropdown-list-4.product.w--open {
+  margin-left: 123px;
+}
+
+.dropdown-list-4.digital.w--open {
+  margin-left: 53px;
+}
+
+.dropdown-list-4.contact {
+  margin-left: 30px;
+}
+
+.contact {
+  margin-left: 0px;
+  padding-right: 0px;
+  background-color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: -0.02vw;
+}
+
+.grid-5 {
+  max-height: 600px;
+  margin-top: 125px;
+  margin-bottom: 100px;
+  grid-template-areas: "Area Area-2 Area-3"
+    "Area Area-2 Area-3"
+    "Area-13 Area-14 Area-15"
+    "Area-7 Area-8 Area-9"
+    "Area-4 Area-5 Area-6"
+    ". . Area-6"
+    ". . Area-6"
+    "Area-10 Area-11 Area-12";
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto auto auto minmax(255px, 1fr);
+  grid-template-rows: auto auto auto auto auto minmax(255px, 1fr);
+}
+
+.image-4 {
+  overflow: visible;
+  width: auto;
+  height: auto;
+  max-height: 100px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.page-cover {
+  width: 100%;
+  height: 70%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.link-block {
+  text-decoration: none;
+}
+
+.project-gallery-grid {
+  max-height: 1050px;
+  max-width: 900px;
+  margin-top: 125px;
+  grid-template-areas: "top-left top-center top-right"
+    "top-left top-center top-right"
+    "top-left top-center top-right"
+    "top-left-desc top-center-desc top-right-desc"
+    "mid-left center mid-right"
+    "mid-left center mid-right"
+    "mid-left center mid-right"
+    "bottom-left-desc bottom-center-desc bottom-right-desc";
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto auto 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto 1fr 1fr 1fr;
+}
+
+.title-desc {
+  margin-top: -100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #2d2527;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.02vw;
+  text-decoration: none;
+}
+
+.link-block-2 {
+  text-decoration: none;
+}
+
+.link-block-3 {
+  text-decoration: none;
+}
+
+.link-block-4 {
+  text-decoration: none;
+}
+
+.link-block-5 {
+  text-decoration: none;
+}
+
+.link-block-6 {
+  text-decoration: none;
+}
+
+.body-3 {
+  padding: 150px 50px 100px 150px;
+}
+
+.body-4 {
+  padding: 150px 50px 100px 150px;
+}
+
+.body-5 {
+  padding: 150px 50px 100px 150px;
+}
+
+.page-header {
+  display: block;
+  min-width: 1144px;
+  margin-top: 30px;
+  margin-right: 60px;
+  margin-left: 67px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.logotype1 {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 358px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+}
+
+.image-5 {
+  display: block;
+}
+
+.div-block-7 {
+  display: block;
+  max-width: 325px;
+}
+
+.container-2 {
+  max-height: 655px;
+  min-height: 327.5px;
+  margin-top: 0px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.columns {
+  max-height: 655px;
+  max-width: 1790px;
+  min-height: 327.5px;
+  min-width: 358px;
+}
+
+.project-gallery-img {
+  max-height: 655px;
+  min-height: 327.5px;
+  padding-left: 0px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.image-6 {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.gallery-cover {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.section-3 {
+  margin-top: 25px;
+  margin-right: 60px;
+  margin-left: 70px;
+  padding-left: 0px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.column {
+  padding-left: 0px;
+}
+
+.columns-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  max-height: 655px;
+  max-width: 1310px;
+}
+
+.gallery-img {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.image-7 {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.image-8 {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.image-9 {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.section-4 {
+  margin: 100px 60px 0px 70px;
+  padding-bottom: 10px;
+}
+
+.paragraph {
+  max-width: 850px;
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.div-block-8 {
+  width: 161px;
+  height: 1.5px;
+  margin-bottom: 0px;
+  border: 1px none transparent;
+  background-color: #8c7a76;
+  color: #8c7a76;
+}
+
+.div-block-9 {
+  max-width: 1310px;
+  margin-bottom: 20px;
+}
+
+.div-block-10 {
+  display: inline;
+  max-width: 100px;
+  text-align: right;
+}
+
+.date {
+  max-width: 1310px;
+  margin-top: 15px;
+  margin-right: 60px;
+  margin-left: 70px;
+}
+
+.text-block-9 {
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+  max-width: 110px;
+  margin-left: 0px;
+  float: right;
+  clear: none;
+  text-align: right;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 43px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.body-6 {
+  background-color: #fffeff;
+}
+
+.column-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.text-block-10 {
+  max-width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  text-align: right;
+}
+
+.text-block-11 {
+  max-width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+}
+
+.body-7 {
+  background-color: #fffeff;
+}
+
+.body-8 {
+  background-color: #fffeff;
+}
+
+.body-9 {
+  margin-bottom: 0px;
+  background-color: #fffeff;
+}
+
+.hero {
+  margin-top: 20px;
+  margin-right: 60px;
+  margin-left: 70px;
+}
+
+.div-block-11 {
+  overflow: hidden;
+  max-height: 653px;
+  max-width: 1310px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.bottom-slider-desc {
+  max-height: 800px;
+  margin: 40px 60px 40px 70px;
+}
+
+.slider {
+  display: inline-block;
+  max-height: 800px;
+  min-height: 655px;
+  min-width: 655px;
+  float: right;
+  background-color: transparent;
+  text-align: left;
+}
+
+.image-10 {
+  overflow: hidden;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.slide {
+  -o-object-fit: none;
+  object-fit: none;
+}
+
+.mask {
+  max-width: 655px;
+  min-height: 655px;
+  min-width: 655px;
+}
+
+.image-11 {
+  overflow: visible;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.icon-6 {
+  display: none;
+  overflow: visible;
+}
+
+.icon-7 {
+  display: none;
+}
+
+.column-3 {
+  padding-right: 30px;
+  padding-left: 0px;
+}
+
+.column-4 {
+  padding-right: 0px;
+  padding-left: 25px;
+}
+
+.column-5 {
+  padding-right: 0px;
+}
+
+.column-6 {
+  padding-right: 0px;
+}
+
+.top-slider-desc {
+  margin-top: 40px;
+  margin-right: 60px;
+  margin-left: 70px;
+}
+
+.div-block-12 {
+  height: 40px;
+}
+
+.image-12 {
+  display: block;
+}
+
+.image-13 {
+  display: block;
+}
+
+.image-14 {
+  display: block;
+}
+
+.image-15 {
+  display: block;
+}
+
+.image-16 {
+  display: inline-block;
+}
+
+.image-17 {
+  display: inline-block;
+}
+
+.paragraph-2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paragraph-3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paragraph-4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paragraph-5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paragraph-6 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paragraph-7 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paragraph-8 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paragraph-9 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #8c7a76;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.image-18 {
+  display: inline-block;
+}
+
+.image-19 {
+  display: inline-block;
+}
+
+.image-20 {
+  display: inline-block;
+}
+
+.image-21 {
+  display: inline-block;
+}
+
+.columns-3 {
+  max-width: 1310px;
+}
+
+.column-7 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column-8 {
+  padding-left: 0px;
+}
+
+.image-22 {
+  display: inline-block;
+}
+
+.image-23 {
+  display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+  .gallery-header {
+    max-width: 30vw;
+  }
+
+  .text-block-8 {
+    padding-right: 20px;
+  }
+
+  .dropdown-toggle-6 {
+    margin-left: 132px;
+  }
+
+  .dropdown-list-4.w--open {
+    margin-left: 111px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+  }
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../fonts/SFMonoRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Univers 75 bigfontsite';
+  src: url('../fonts/univers-75-black_bigfontsite.com.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Univers lt 75 bigfontsite';
+  src: url('../fonts/univers-lt-75-black_bigfontsite.com.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atypdisplay';
+  src: url('../fonts/AtypDisplay-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Braille';
+  src: url('../fonts/braille.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana alt';
+  src: url('../fonts/Juana-Alt-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyptext';
+  src: url('../fonts/AtypText-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana alt';
+  src: url('../fonts/Juana-Alt-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana alt';
+  src: url('../fonts/Juana-Alt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana alt';
+  src: url('../fonts/Juana-Alt-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana alt';
+  src: url('../fonts/Juana-Alt-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana alt';
+  src: url('../fonts/Juana-Alt-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana alt';
+  src: url('../fonts/Juana-Alt-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana it';
+  src: url('../fonts/Juana-Black-It.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana';
+  src: url('../fonts/Juana-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana it';
+  src: url('../fonts/Juana-Bold-It.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana';
+  src: url('../fonts/Juana-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana alt';
+  src: url('../fonts/Juana-Alt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana';
+  src: url('../fonts/Juana-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana it';
+  src: url('../fonts/Juana-ExtraLight-It.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana it';
+  src: url('../fonts/Juana-Light-It.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana';
+  src: url('../fonts/Juana-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana it';
+  src: url('../fonts/Juana-Medium-It.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana it';
+  src: url('../fonts/Juana-Regular-It.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana';
+  src: url('../fonts/Juana-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana';
+  src: url('../fonts/Juana-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana it';
+  src: url('../fonts/Juana-SemiBold-It.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Black-Italic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana';
+  src: url('../fonts/Juana-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana';
+  src: url('../fonts/Juana-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juana it';
+  src: url('../fonts/Juana-Thin-It.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Bold-Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken extra';
+  src: url('../fonts/Larken-Extra-Bold-Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken extra';
+  src: url('../fonts/Larken-Extra-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Light-Italic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Medium-Italic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('../fonts/Larken-Thin-Italic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken variable';
+  src: url('../fonts/Larken-Variable.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Larken variable';
+  src: url('../fonts/Larken-Variable-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
